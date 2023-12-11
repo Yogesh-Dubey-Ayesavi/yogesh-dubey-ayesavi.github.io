@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        #sun-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+
+        #sun {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: radial-gradient(circle, #ffdb58 20%, transparent 60%);
+            animation: sunflare 3s infinite alternate;
+        }
+
+        @keyframes sunflare {
+            0% {
+                box-shadow: 0 0 20px #ffdb58;
+            }
+            100% {
+                box-shadow: 0 0 50px #ffdb58;
+            }
+        }
+
+        .links-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .link {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 25px;
+            margin: 0 20px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .link:hover {
+            background-color: #fff;
+            color: #1a1a1a;
+        }
+    </style>
+    <title>Elegant UI with Sun and Links</title>
+</head>
+<body>
+    <div id="sun-container">
+        <div id="sun"></div>
+    </div>
+    
+    <div class="links-container">
+        <a href="https://docs.esg.edu.ayesavi.in/esg-edu-sdk/" class="link" target="_blank">ESG Edu SDK Documentation</a>
+        <a href="https://esg.edu.ayesavi.in/" class="link" target="_blank">ESG Edu Website</a>
+    </div>
+</body>
+</html>
