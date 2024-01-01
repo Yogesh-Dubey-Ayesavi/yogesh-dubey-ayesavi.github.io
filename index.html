@@ -3,76 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayesavi Docs</title>
     <style>
         body {
-            background-color: #1a1a1a;
+            background-color: #000;
             color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            overflow: hidden;
         }
 
-        #sun-container {
+        .container {
             position: relative;
-            width: 200px;
-            height: 200px;
-        }
-
-        #sun {
             width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background: radial-gradient(circle, #ffdb58 20%, transparent 60%);
-            animation: sunflare 3s infinite alternate;
-        }
-
-        @keyframes sunflare {
-            0% {
-                box-shadow: 0 0 20px #ffdb58;
-            }
-            100% {
-                box-shadow: 0 0 50px #ffdb58;
-            }
-        }
-
-        .links-container {
             text-align: center;
-            margin-top: 50px;
+            z-index: 1;
+        }
+
+        .card {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
         .link {
-            display: inline-block;
-            text-decoration: none;
             color: #fff;
-            padding: 15px 25px;
-            margin: 0 20px;
-            border: 2px solid #fff;
+            text-decoration: none;
+            padding: 5px;
             border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
+            border: 2px solid transparent;
+            transition: color 0.3s ease, border-color 0.3s ease;
         }
 
         .link:hover {
-            background-color: #fff;
-            color: #1a1a1a;
+            color: #fff;
+            border-color: #fff;}
+
+        img {
+            max-width: 50%;  /* Adjust the value to make the image smaller */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
         }
     </style>
-    <title>EsgEdu Links</title>
 </head>
 <body>
-    <div id="sun-container">
-        <div id="sun"></div>
-    </div>
-    
-    <div class="links-container">
-        <a href="https://docs.ayesavi.in/lakshya-sdk/" class="link" target="_blank">Lakshya SDK Documentation</a>
-        
-        <a href="https://docs.ayesavi.in/esg-edu-sdk/" class="link" target="_blank">ESG Edu SDK Documentation</a>
-        <a href="https://esg.edu.ayesavi.in/" class="link" target="_blank">ESG Edu Website</a>
-         <a href="https://docs.ayesavi.in/esg-edu-apis" class="link" target="_blank">ESG Edu API Documentaion</a>
+    <div class="container">
+        <img src="unnamed.png" alt="Unnamed Image">
+        <div class="card">
+            <h2>Documentation Links</h2>
+            <div class="links">
+                <a href="https://docs.ayesavi.in/lakshya-sdk/" class="link" target="_blank">Lakshya SDK Documentation</a>
+                <a href="https://docs.ayesavi.in/esg-edu-sdk/" class="link" target="_blank">ESG Edu SDK Documentation</a>
+                <a href="https://esg.edu.ayesavi.in/" class="link" target="_blank">ESG Edu Website</a>
+                <a href="https://docs.ayesavi.in/esg-edu-apis" class="link" target="_blank">ESG Edu API Documentation</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
