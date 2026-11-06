@@ -1,90 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <title>Ayesavi Docs</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        .container {
-            position: relative;
-            width: 100%;
-            text-align: center;
-            z-index: 1;
-        }
-
-        .card {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .card h2 {
-            margin-bottom: 15px;
-        }
-
-        .links {
-            
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .link {
-            color: #fff;
-            text-decoration: none;
-            padding: 5px;
-            border-radius: 5px;
-            border: 2px solid transparent;
-            transition: color 0.3s ease, border-color 0.3s ease;
-        }
-
-        .link:hover {
-    color: #000;
-    /* border-color: #fff; */
-    background-color: #fff; /* Add background color on hover */
-}
-
-        img {
-            max-width: 50%;  /* Adjust the value to make the image smaller */
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            margin-top: 20px;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yogesh Dubey</title>
+<meta name="description" content="Yogesh Dubey: software engineer and founder. I like solving real problems, and this is where I write about them.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>
+  // Apply the saved edition before first paint to avoid a colour flash.
+  (function () {
+    var T = {
+      night: ['#131416', '#ece5d8', '#9d978c', '#34363a', '#e3b45a', '#1d1f22'],
+      salmon: ['#f6e3d3', '#2a1d17', '#6e5548', '#e0c4b0', '#1f5d73', '#efd5c1'],
+      indigo: ['#1c2547', '#f2ebd9', '#a8adc2', '#364070', '#f2c14e', '#242e56']
+    };
+    try {
+      var t = T[localStorage.getItem('yd-theme7')];
+      if (t) ['bg', 'ink', 'muted', 'line', 'accent', 'tint'].forEach(function (k, i) {
+        document.documentElement.style.setProperty('--' + k, t[i]);
+      });
+    } catch (e) {}
+  })();
+</script>
 </head>
 <body>
-    <div class="container">
-        <img src="unnamed.png" alt="Unnamed Image">
-        <div class="card">
-            <h2>Documentation Links</h2>
-            <div class="links">
-                <a href="https://docs.ayesavi.in/lakshya-sdk/" class="link" target="_blank">Lakshya SDK Documentation</a>
-                <a href="https://docs.ayesavi.in/esg-edu-sdk/" class="link" target="_blank">ESG Edu SDK Documentation</a>
-                <a href="https://esg.edu.ayesavi.in/" class="link" target="_blank">ESG Edu Website</a>
-                <a href="https://docs.ayesavi.in/esg-edu-apis" class="link" target="_blank">ESG Edu API Documentation</a>
-            </div>
-        </div>
-    </div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="page" id="app"></div>
+<script src="app.js"></script>
 </body>
 </html>

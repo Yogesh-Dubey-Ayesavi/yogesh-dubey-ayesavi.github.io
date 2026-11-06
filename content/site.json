@@ -1,0 +1,232 @@
+{
+  "email": "you@example.com",
+  "workTeasers": [
+    {
+      "name": "Reredd",
+      "short": "AI agents that hang out on Reddit like real people.",
+      "blurb": "A group of agents, each with its own account and pace. They read threads before they reply and build karma over weeks."
+    },
+    {
+      "name": "Huddler",
+      "short": "A meeting buddy that answers while you're still talking.",
+      "blurb": "An alternative to Cluely for meetings. It answers right away, tracks tasks and knows your codebase."
+    }
+  ],
+  "projects": [
+    {
+      "num": "01",
+      "kicker": "Something I built",
+      "headline": "Reredd: AI agents that hang out on Reddit like real people",
+      "dek": "I wanted to see if software could join a community the way a person does: by reading first and talking later.",
+      "drop": "R",
+      "first": "eredd isn't one bot. It's a whole group of agents, and each one has its own account, its own history and its own pace.",
+      "paras": [
+        "They read threads before they reply, and they build karma over weeks, much like you or I would.",
+        "I also published the Reredd CLI, so other AI agents can plug into it over MCP and run campaigns without any extra setup."
+      ],
+      "src": "https://reredd.in/og-image.png",
+      "ph": "Reredd screenshot",
+      "caption": "Reredd, as seen at reredd.in.",
+      "glance": [
+        {
+          "k": "What",
+          "v": "A fleet of AI agents for Reddit campaigns"
+        },
+        {
+          "k": "Also",
+          "v": "The Reredd CLI, which agents use over MCP"
+        },
+        {
+          "k": "Status",
+          "v": "Live"
+        }
+      ],
+      "href": "https://reredd.in",
+      "external": true,
+      "linkLabel": "Visit reredd.in ↗"
+    },
+    {
+      "num": "02",
+      "kicker": "Another thing I built",
+      "headline": "Huddler: a meeting buddy that answers while you're still talking",
+      "dek": "Meetings are full of questions nobody can answer on the spot. Huddler can.",
+      "drop": "T",
+      "first": "hink of it as an alternative to Cluely, made for meetings. When someone asks a question, Huddler answers right away.",
+      "paras": [
+        "It also keeps track of tasks, answers questions about your codebase, and remembers what's still pending."
+      ],
+      "src": "",
+      "ph": "Huddler screenshot coming soon",
+      "caption": "Huddler during a meeting.",
+      "glance": [
+        {
+          "k": "What",
+          "v": "A real-time AI companion for meetings"
+        },
+        {
+          "k": "Does",
+          "v": "Answers, tasks, codebase questions, pending items"
+        },
+        {
+          "k": "Status",
+          "v": "Link coming soon"
+        }
+      ],
+      "href": "#/contact",
+      "external": false,
+      "linkLabel": "Ask me for a demo →"
+    }
+  ],
+  "timeline": [
+    {
+      "d": "Aug 2026 – now",
+      "what": "Cohostly",
+      "role": "Co-founder, engineering",
+      "text": "A cloud for small apps and tools. Drag in a folder, get a live link, and control who can open and edit it."
+    },
+    {
+      "d": "Jul 2026 – now",
+      "what": "Brabble.ai",
+      "role": "Co-founder",
+      "text": "With Debraj Mukherjee. An index of hackathons and case competitions, with deadline reminders. It now runs on autopilot."
+    },
+    {
+      "d": "Oct 2025 – Apr 2026",
+      "what": "TVR",
+      "role": "Co-founder and CTO",
+      "text": "Built a paid community app for creators, including live streaming. It never launched because we couldn't get creators to sign on."
+    },
+    {
+      "d": "Aug 2025 – Jan 2026",
+      "what": "Probe42",
+      "role": "Developer intern",
+      "text": "Built a system that turns company filings in PDF, scanned and image formats into clean data. About 57,000 documents in 12 minutes."
+    },
+    {
+      "d": "Jul – Oct 2025",
+      "what": "Corpintel",
+      "role": "Builder",
+      "text": "A free tool for Indian company filings. It reached about 30,000 visitors."
+    },
+    {
+      "d": "Nov 2024 – May 2025",
+      "what": "Brabble.ai, first version",
+      "role": "Founder",
+      "text": "AI voice agents for real estate companies. I shut it down because the market in India was too early."
+    },
+    {
+      "d": "Jul 2024 – Mar 2025",
+      "what": "Tabcorp",
+      "role": "Flutter developer, contract",
+      "text": "Worked on a betting app with over a million users."
+    },
+    {
+      "d": "2024",
+      "what": "Monetzly",
+      "role": "Side project",
+      "text": "An SDK that adds relevant ads to LLM output so developers can earn money. It became the base for my research paper."
+    },
+    {
+      "d": "Jan 2024 – Jun 2025",
+      "what": "Edsure",
+      "role": "Backend developer",
+      "text": "Built APIs and ran the backend on GCP."
+    },
+    {
+      "d": "Aug 2023 – Jan 2024",
+      "what": "Adnovate AU",
+      "role": "Full stack developer",
+      "text": "Worked on the Flutter app and the backend."
+    },
+    {
+      "d": "Dec 2023",
+      "what": "SIH 2023",
+      "role": "Finalist",
+      "text": "Built an index to measure the ESG score of any company."
+    },
+    {
+      "d": "Apr 2023",
+      "what": "ChatView",
+      "role": "Open-source contributor",
+      "text": "Added features, like a typing callback, to a Flutter chat UI package as it took off after ChatGPT."
+    },
+    {
+      "d": "Jun – Aug 2022",
+      "what": "Airchains",
+      "role": "Founder's intern",
+      "text": "Interned at a blockchain company, earlier called Vaayupankh."
+    },
+    {
+      "d": "2021 – 2023",
+      "what": "Scrollup",
+      "role": "Builder",
+      "text": "Started in classes 11 and 12. A way to meet people globally, like Omegle with a TikTok-style interface."
+    }
+  ],
+  "facts": [
+    {
+      "k": "Based in",
+      "v": "Mumbai, India"
+    },
+    {
+      "k": "Building now",
+      "v": "Cohostly (cohostly.cloud)"
+    },
+    {
+      "k": "Studying",
+      "v": "Btech CS, BIT Raipur, 2022 to 2026"
+    },
+    {
+      "k": "Worked with",
+      "v": "Companies in India and Australia"
+    },
+    {
+      "k": "Mostly writes",
+      "v": "TypeScript, Go and Flutter"
+    }
+  ],
+  "skills": [
+    {
+      "k": "Languages",
+      "v": "TypeScript, Go, and Dart for Flutter"
+    },
+    {
+      "k": "Backend",
+      "v": "Fastify and zod APIs, gRPC services, document processing at scale"
+    },
+    {
+      "k": "Cloud",
+      "v": "GCP, Terraform, Nomad, Firecracker microVMs, Redis, Supabase Postgres"
+    },
+    {
+      "k": "Frontend",
+      "v": "Next.js, React, Astro, and Flutter apps for large user bases"
+    },
+    {
+      "k": "AI",
+      "v": "Voice agents, LLM features, an AI gateway so apps use AI without API keys"
+    }
+  ],
+  "links": [
+    {
+      "k": "Email",
+      "v": "{{email}}",
+      "href": "mailto:{{email}}"
+    },
+    {
+      "k": "Code",
+      "v": "GitHub",
+      "href": "#"
+    },
+    {
+      "k": "Work history",
+      "v": "LinkedIn",
+      "href": "#"
+    },
+    {
+      "k": "Thoughts",
+      "v": "X",
+      "href": "#"
+    }
+  ]
+}
