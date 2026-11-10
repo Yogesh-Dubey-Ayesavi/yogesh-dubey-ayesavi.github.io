@@ -2,6 +2,7 @@
 title: Monetzly: a way for free AI agents to pay for themselves
 dek: Why I built an SDK that puts ads into AI responses, and what it looks like inside a coding agent.
 date: 2026-01-08
+draft: true
 ---
 
 Free AI agents have a cost problem. Every answer costs money to produce, and the usual answer, a subscription, does not fit every tool.
