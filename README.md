@@ -33,7 +33,7 @@ Posts are sorted by `date`, newest first. To edit or delete a post, open its fil
 
 ## Edit everything else
 
-`content/site.json` holds the email address, Work projects, About-page timeline, facts, skills and contact links. Edit it on GitHub the same way. Keep it valid JSON: quotes around text, commas between items. If it breaks, the Actions run fails and the live site stays as it was.
+`content/site.json` holds the email address, About-page timeline, facts, skills and contact links. Edit it on GitHub the same way. Keep it valid JSON: quotes around text, commas between items. If it breaks, the Actions run fails and the live site stays as it was.
 
 Images go in `assets/`. Reference them as `assets/name.jpg` (for example in a project's `"src"`, or in a post as `![alt](assets/name.jpg)`).
 

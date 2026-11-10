@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">How a campaign finds a conversation</title>
+  <desc id="desc">A relevant Reddit question moves through topic fit and draft checks. The result is either a useful reply or no post.</desc>
+  <rect width="720" height="360" fill="#fffdf6"/>
+  <path d="M10 10 Q355 7 710 12 L709 349 Q351 354 11 348 Z" fill="none" stroke="#242424" stroke-width="2"/>
+  <text x="30" y="43" fill="#242424" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="21" font-weight="700">from a question to a decision</text>
+  <path d="M29 51 Q185 55 343 51" fill="none" stroke="#ef7957" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M32 104 Q30 87 48 88 L202 90 Q213 90 213 105 L211 194 Q211 207 199 208 L48 206 Q31 205 31 191 Z" fill="#e7f0ff" stroke="#242424" stroke-width="2"/>
+  <text x="48" y="123" fill="#242424" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="19" font-weight="700">reddit question</text>
+  <text x="48" y="151" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16">someone needs help</text>
+  <text x="48" y="176" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16">finding a hackathon</text>
+
+  <path d="M228 149 Q245 147 260 150 M252 143 L261 150 L252 157" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M276 104 Q276 88 291 89 L445 87 Q461 88 462 105 L460 193 Q460 207 444 207 L291 209 Q277 207 276 192 Z" fill="#fff0d8" stroke="#242424" stroke-width="2"/>
+  <text x="293" y="122" fill="#242424" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="19" font-weight="700">agent checks</text>
+  <text x="293" y="151" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16">topic and replies</text>
+  <text x="293" y="176" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16">rules and draft</text>
+
+  <path d="M476 149 Q493 147 506 150 M498 143 L507 150 L498 157" fill="none" stroke="#242424" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M521 83 Q522 72 535 71 L670 73 Q685 74 684 88 L683 142 Q683 155 669 155 L534 156 Q520 154 520 140 Z" fill="#e3f4df" stroke="#242424" stroke-width="2"/>
+  <text x="539" y="108" fill="#242424" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">useful reply</text>
+  <text x="539" y="134" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">when it fits</text>
+
+  <path d="M521 183 Q522 169 535 171 L669 170 Q684 171 683 185 L685 239 Q685 251 669 252 L535 252 Q521 251 521 238 Z" fill="#ffe7e1" stroke="#242424" stroke-width="2"/>
+  <text x="539" y="207" fill="#242424" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">no post</text>
+  <text x="539" y="232" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">when it does not</text>
+
+  <path d="M85 270 Q213 277 341 270 Q490 265 630 269" fill="none" stroke="#ef7957" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 10"/>
+  <text x="36" y="310" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16">the system can say nothing. that is a decision too</text>
+</svg>

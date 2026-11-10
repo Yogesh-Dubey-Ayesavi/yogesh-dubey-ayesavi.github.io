@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">How a request becomes a ready Reddit account</title>
+  <desc id="desc">A request becomes bank tasks. A linked device runs browser signup. An address from our email service routes mail to a connector, which extracts the one-time code. The completed account waits in the bank until it is assigned to an agent.</desc>
+  <rect width="720" height="440" fill="#fffdf6"/>
+  <path d="M10 10 Q350 7 710 11 L709 429 Q350 434 11 429 Z" fill="none" stroke="#262626" stroke-width="2"/>
+  <text x="27" y="42" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="22" font-weight="700">from a request to a ready account</text>
+  <path d="M27 51 Q210 55 398 51" fill="none" stroke="#f0805d" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M28 76 Q27 66 41 66 L314 67 Q326 67 327 79 L326 130 Q326 143 312 142 L42 143 Q27 142 28 129 Z" fill="#e7f0ff" stroke="#262626" stroke-width="2"/>
+  <text x="44" y="96" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">1. request accounts</text>
+  <text x="44" y="123" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">the bank makes one job per account</text>
+
+  <path d="M391 76 Q391 65 405 66 L680 67 Q693 68 692 80 L693 130 Q692 143 679 143 L406 143 Q390 142 391 129 Z" fill="#e7f5df" stroke="#262626" stroke-width="2"/>
+  <text x="407" y="96" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">2. linked device takes a job</text>
+  <text x="407" y="123" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">puppeteer drives chrome signup</text>
+
+  <path d="M338 104 L377 104 M369 97 L378 104 L369 111 M540 148 L540 173 M533 165 L540 174 L547 165" fill="none" stroke="#262626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M28 187 Q28 175 42 175 L314 176 Q326 176 326 190 L326 271 Q326 284 312 284 L42 284 Q28 283 28 270 Z" fill="#f4edff" stroke="#262626" stroke-width="2"/>
+  <text x="44" y="207" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">4. code reaches chrome</text>
+  <text x="44" y="233" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">connector finds the reddit otp</text>
+  <text x="44" y="258" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">browser finishes verification</text>
+
+  <path d="M391 187 Q391 175 405 176 L679 175 Q692 176 692 190 L692 271 Q692 285 679 284 L405 284 Q391 283 391 270 Z" fill="#fff0d8" stroke="#262626" stroke-width="2"/>
+  <text x="407" y="207" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">3. our mail service</text>
+  <text x="407" y="233" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">makes an inbox on our domain</text>
+  <text x="407" y="258" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">routes mail to the connector</text>
+
+  <path d="M379 233 L339 233 M347 226 L338 233 L347 240 M170 288 L170 313 M163 305 L170 314 L177 305" fill="none" stroke="#262626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M28 329 Q28 317 42 318 L679 317 Q693 318 692 332 L691 396 Q691 410 679 410 L42 410 Q28 409 28 395 Z" fill="#ffe8e2" stroke="#262626" stroke-width="2"/>
+  <text x="44" y="350" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">5. finished account waits in the bank</text>
+  <text x="44" y="377" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">it becomes an agent only after it is claimed and configured</text>
+</svg>

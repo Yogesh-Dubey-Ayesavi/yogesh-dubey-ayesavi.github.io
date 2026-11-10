@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">How the Reddit agent fleet fits together</title>
+  <desc id="desc">The operator sets a goal for the campaign manager. The manager can request a ready account from the bank or assign work to an existing agent. The bank supplies accounts that become separate agents. Agents use the Reddit client and proxy gateway.</desc>
+  <rect width="720" height="520" fill="#fffdf6"/>
+  <path d="M10 10 Q348 7 710 11 L709 508 Q348 513 11 509 Z" fill="none" stroke="#252525" stroke-width="2"/>
+  <text x="28" y="42" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="22" font-weight="700" fill="#252525">the fleet in one picture</text>
+  <path d="M28 51 Q143 55 254 51" fill="none" stroke="#f0805d" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M32 79 Q33 67 47 68 L666 69 Q684 69 684 83 L684 126 Q683 139 667 139 L47 140 Q33 139 32 126 Z" fill="#e7f0ff" stroke="#252525" stroke-width="2"/>
+  <text x="49" y="98" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">you set the goal</text>
+  <text x="49" y="124" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16" fill="#343434">dashboard  •  cli  •  mcp  •  telegram</text>
+
+  <path d="M551 144 L551 177 M544 169 L551 178 L558 169" fill="none" stroke="#252525" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M33 194 Q33 180 48 181 L291 181 Q304 181 304 195 L304 275 Q303 290 290 290 L48 289 Q32 288 33 274 Z" fill="#fff0d8" stroke="#252525" stroke-width="2"/>
+  <text x="49" y="213" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">account bank</text>
+  <text x="49" y="238" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15" fill="#343434">linked devices prepare accounts</text>
+  <text x="49" y="261" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15" fill="#343434">accounts wait until assigned</text>
+
+  <path d="M414 194 Q415 180 429 181 L670 181 Q685 182 684 196 L683 275 Q682 289 669 289 L429 290 Q414 290 414 274 Z" fill="#e7f5df" stroke="#252525" stroke-width="2"/>
+  <text x="430" y="213" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">campaign manager</text>
+  <text x="430" y="238" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15" fill="#343434">requests accounts or assigns agents</text>
+  <text x="430" y="261" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15" fill="#343434">checks limits and fleet health</text>
+
+  <path d="M411 235 Q359 233 307 235 M316 228 L306 235 L316 242 M169 294 L169 320 M162 312 L169 321 L176 312 M551 294 L551 320 M544 312 L551 321 L558 312" fill="none" stroke="#252525" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M31 338 Q32 325 47 325 L672 326 Q685 327 684 341 L683 416 Q682 429 670 429 L47 429 Q31 427 31 414 Z" fill="#f4edff" stroke="#252525" stroke-width="2"/>
+  <text x="49" y="353" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">one agent per account</text>
+  <text x="49" y="379" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15" fill="#343434">persona  •  niche  •  schedule  •  memory  •  health checks</text>
+  <text x="49" y="402" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15" fill="#343434">each agent can read, draft, publish, wait or stop</text>
+
+  <path d="M360 431 L360 455 M353 447 L360 456 L367 447" fill="none" stroke="#252525" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="68" y="487" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16" fill="#343434">reddit client</text>
+  <path d="M179 482 L248 482 M241 475 L249 482 L241 489" fill="none" stroke="#252525" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="263" y="487" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16" fill="#343434">proxy gateway</text>
+  <path d="M396 482 L465 482 M458 475 L466 482 L458 489" fill="none" stroke="#252525" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="481" y="487" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="16" fill="#343434">reddit</text>
+</svg>

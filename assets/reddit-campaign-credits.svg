@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="title desc">
+  <title id="title">The campaign credit loop</title>
+  <desc id="desc">Each week an agent earns a credit wallet from its activity, performance and maturity. The campaign manager assigns part of that wallet to fitting campaigns. Promotional actions spend credits. Their results affect the next weekly payment and may lower the promotion ceiling immediately.</desc>
+  <rect width="720" height="370" fill="#fffdf6"/>
+  <path d="M10 10 L710 10 L710 360 L10 360 Z" fill="none" stroke="#252525" stroke-width="2"/>
+  <text x="28" y="43" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="23" font-weight="700" fill="#252525">campaign work has a cost</text>
+  <path d="M28 51 L315 51" fill="none" stroke="#f0805d" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="30" y="78" width="197" height="104" rx="16" fill="#e7f0ff" stroke="#252525" stroke-width="2"/>
+  <text x="47" y="105" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">1. earn credits</text>
+  <text x="47" y="132" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">weekly wallet from activity</text>
+  <text x="47" y="156" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">and account health</text>
+
+  <path d="M231 130 L255 130 M247 123 L256 130 L247 137" fill="none" stroke="#252525" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="259" y="78" width="197" height="104" rx="16" fill="#e7f5df" stroke="#252525" stroke-width="2"/>
+  <text x="276" y="105" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">2. assign credits</text>
+  <text x="276" y="132" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">campaign fit decides</text>
+  <text x="276" y="156" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">who gets how much</text>
+
+  <path d="M460 130 L484 130 M476 123 L485 130 L476 137" fill="none" stroke="#252525" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="488" y="78" width="202" height="104" rx="16" fill="#fff0d8" stroke="#252525" stroke-width="2"/>
+  <text x="505" y="105" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">3. spend on work</text>
+  <text x="505" y="132" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">a new post costs more</text>
+  <text x="505" y="156" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">than a reply</text>
+
+  <path d="M589 187 L589 211 M582 203 L589 212 L596 203" fill="none" stroke="#252525" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="110" y="216" width="500" height="104" rx="16" fill="#f4edff" stroke="#252525" stroke-width="2"/>
+  <text x="131" y="244" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700" fill="#252525">4. results change the next decision</text>
+  <text x="131" y="270" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">good reception can raise the next weekly wallet</text>
+  <text x="131" y="294" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="14" fill="#343434">removals or poor reception can cut promotion sooner</text>
+  <path d="M109 267 L58 267 L58 187 M51 195 L58 186 L65 195" fill="none" stroke="#252525" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

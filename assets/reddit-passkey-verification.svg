@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" role="img" aria-labelledby="title desc">
+  <title id="title">How an unregistered bot flag enters the review flow</title>
+  <desc id="desc">Reddit's automated account flag appears in the fleet and triggers an alert. An operator asks a linked device to verify the account. The device opens Chromium, completes the requested passkey flow with a virtual authenticator, then returns a refreshed session to the fleet if the original session is still current.</desc>
+  <rect width="720" height="410" fill="#fffdf6"/>
+  <path d="M10 10 Q350 7 710 11 L709 399 Q350 404 11 399 Z" fill="none" stroke="#262626" stroke-width="2"/>
+  <text x="27" y="42" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="22" font-weight="700">the unregistered bot problem</text>
+  <path d="M27 51 Q195 55 365 51" fill="none" stroke="#f0805d" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M30 78 Q29 66 42 67 L318 67 Q330 67 330 80 L330 136 Q329 149 317 149 L43 149 Q29 148 30 135 Z" fill="#ffe7e1" stroke="#262626" stroke-width="2"/>
+  <text x="46" y="100" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">1. bot flag appears</text>
+  <text x="46" y="127" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">dashboard marks it  •  telegram alerts us</text>
+
+  <path d="M390 78 Q390 66 404 67 L679 67 Q692 68 691 81 L692 136 Q691 149 679 149 L405 149 Q390 148 390 135 Z" fill="#fff0d8" stroke="#262626" stroke-width="2"/>
+  <text x="406" y="100" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">2. operator requests review</text>
+  <text x="406" y="127" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">one job goes to a linked device</text>
+
+  <path d="M341 108 L378 108 M370 101 L379 108 L370 115 M541 153 L541 177 M534 169 L541 178 L548 169" fill="none" stroke="#262626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M30 194 Q30 181 44 181 L679 181 Q692 182 691 196 L691 264 Q690 278 677 278 L44 278 Q30 277 30 263 Z" fill="#e7f0ff" stroke="#262626" stroke-width="2"/>
+  <text x="46" y="216" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">3. puppeteer runs browser verification</text>
+  <text x="46" y="244" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">chromium uses the account session and the saved passkey when needed</text>
+
+  <path d="M360 282 L360 305 M353 297 L360 306 L367 297" fill="none" stroke="#262626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M30 322 Q30 310 44 310 L679 311 Q692 312 692 325 L692 374 Q691 387 678 387 L44 387 Q30 386 30 373 Z" fill="#e7f5df" stroke="#262626" stroke-width="2"/>
+  <text x="46" y="344" fill="#262626" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="18" font-weight="700">4. fleet receives the refreshed session</text>
+  <text x="46" y="370" fill="#343434" font-family="Comic Sans MS, Chalkboard SE, cursive" font-size="15">it updates the account only if the original session still matches</text>
+</svg>

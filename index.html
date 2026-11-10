@@ -7,23 +7,15 @@
 <meta name="description" content="Yogesh Dubey: software engineer and founder. I like solving real problems, and this is where I write about them.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=JetBrains+Mono:wght@400..700&display=swap">
 <link rel="stylesheet" href="styles.css">
 <script>
-  // Apply the saved edition before first paint to avoid a colour flash.
-  (function () {
-    var T = {
-      night: ['#131416', '#ece5d8', '#9d978c', '#34363a', '#e3b45a', '#1d1f22'],
-      salmon: ['#f6e3d3', '#2a1d17', '#6e5548', '#e0c4b0', '#1f5d73', '#efd5c1'],
-      indigo: ['#1c2547', '#f2ebd9', '#a8adc2', '#364070', '#f2c14e', '#242e56']
-    };
-    try {
-      var t = T[localStorage.getItem('yd-theme7')];
-      if (t) ['bg', 'ink', 'muted', 'line', 'accent', 'tint'].forEach(function (k, i) {
-        document.documentElement.style.setProperty('--' + k, t[i]);
-      });
-    } catch (e) {}
-  })();
+  // The dark edition for a dark system setting; applied before first paint.
+  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    var s = document.documentElement.style;
+    s.setProperty('--bg', '#131416'); s.setProperty('--ink', '#ece5d8'); s.setProperty('--muted', '#9d978c');
+    s.setProperty('--line', '#34363a'); s.setProperty('--accent', '#e3b45a'); s.setProperty('--tint', '#1d1f22');
+  }
 </script>
 </head>
 <body>

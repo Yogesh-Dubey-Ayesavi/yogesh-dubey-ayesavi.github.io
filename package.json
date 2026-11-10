@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "preview": "node scripts/build.mjs && python3 -m http.server 8000 -d _site"
+    "preview": "node scripts/build.mjs && python3 -m http.server 8000 -d _site",
+    "preview:drafts": "SHOW_DRAFTS=1 node scripts/build.mjs && python3 -m http.server 8000 -d _site"
   },
   "dependencies": {
     "marked": "12.0.2"

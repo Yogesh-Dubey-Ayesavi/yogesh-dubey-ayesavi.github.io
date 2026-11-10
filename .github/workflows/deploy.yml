@@ -3,6 +3,10 @@ name: Publish site
 on:
   push:
     branches: [main]
+  # Picks up new or edited Notion posts every 30 minutes.
+  schedule:
+    - cron: '*/30 * * * *'
+  # "Publish now": Actions tab → Publish site → Run workflow.
   workflow_dispatch:
 
 permissions:
@@ -25,6 +29,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE: ${{ secrets.NOTION_DATABASE }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

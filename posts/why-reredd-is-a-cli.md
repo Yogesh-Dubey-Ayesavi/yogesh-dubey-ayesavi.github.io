@@ -2,6 +2,7 @@
 title: Why Reredd is a CLI that other agents can talk to
 dek: Why I built a command line before a dashboard.
 date: 2026-08-01
+draft: true
 ---
 
 Draft. Replace with your words.
